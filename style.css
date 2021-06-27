@@ -1,11 +1,121 @@
-@media (max-width: 827.98px)
-.navbar-top .container {
-    padding-right: 40px;
-    padding-left: 40px;
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
-
-
-.box-one{
-	color:#FF0000;
+body {
+    background-color: #031926 !important; 
+    background-image: -webkit-linear-gradient(#031926, #0D1321) !important;
 }
+.navbar-nav {
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+.nav-link-name{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: ghostwhite !important;
+}
+.jumbotron{
+    text-align: center;
+    background-color: #031926 !important;
+    color: ghostwhite !important;
+    padding-top: 33px;
+    padding: 2rem 2rem !important;
+}
+.lead-cont{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Rp{
+    font-size: 2.5em;
+    margin-top: 4rem;
+}
+.box-arrow-link {
+    display: inline-block;
+    height: 38px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+.box-arrow-link .a {
+    text-decoration: none;
+}
+.text-box{
+    padding: 0 16px !important;
+    line-height: 36px !important;
+}
+.box-arrow-link:hover {
+    background-color: #f4e9cd;
+    color: #0e0e0e;
+    text-decoration: none;
+}
+.recentPj{
+    text-align: center;
+    color: ghostwhite !important;
+    padding-top: 33px;
+}
+.fal, .far {
+    font-size: 3rem;
+}
+.fab, .fa{
+    font-size: 2rem;
+}
+.upArw{
+    float: right;
+    margin-right: 3%;
+    margin-top: 15%;
+}
+#contact{
+    text-align: center;
+    background-color: #BBD8B3 !important;
+    color: ghostwhite !important;
+    margin-top: 4%;
+    padding: 10rem 2rem !important;
+
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 81% !important;
+        margin: 4.75rem auto;
+    }
+}
+.close {
+    font-size: 2.5rem !important;
+}
+.h4, h4 {
+    font-size: 1rem !important;
+    margin-top: 5% !important;
+}
+.icon span {
+    margin: 0 7px;
+}
+#content {
+    position: relative;
+    margin-left: 25%;
+}
+#content #title {
+    position: relative;
+    width: 100%;
+    transform: translate(0,-50%);
+}
+#content #pic {
+    position: absolute;
+    top: 50%;
+    left: -12.5vw;
+    transform: translate(-50%,-50%);
+}
+/* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  } */
