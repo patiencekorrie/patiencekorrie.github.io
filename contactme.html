@@ -14,37 +14,62 @@
 
     <title>Patience Korrie</title>
   </head>
-  <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
-      <div class="container" id="top">
-            <a class="navbar-brand order-1" href="index.html">
-                <img width="50" src="C:\Users\Nexte\Downloads\logo (1).png" alt="" style="float: left;">
+  <header class="navbar navbar-top navbar-expand-lg" id="stick">
+    <div class="container" id="top">
+        <a class="navbar-brand order-1" href="index.html">
+            <figure class="hover-rotate">
+                <img width="50" src="images\logo (1).png" alt="" style="float: left;">
+            </figure>
+        
 
-            </a>
-            <ul class="nav navbar-nav order-2">
-                <li class="nav-item">
-                    <a href="project.html" class="nav-link">
-                        <span class="nav-link-name">Projects</span>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="aboutme.html" class="nav-link">
-                        <span class="nav-link-name">About Me</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="contactme.html" class="nav-link">
-                        <span class="nav-link-name">contact</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </header>
+        </a>
+        <ul class="nav navbar-nav order-2" id="mainLinks">
+            <li class="nav-item">
+                <a href="project.html" class="nav-link">
+                    <span class="nav-link-name">Projects</span>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="aboutme.html" class="nav-link">
+                    <span class="nav-link-name">About Me</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal">contact</div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="jumbotron" id="contact">
+                            <h3>contact me @</h3>
+                            <h1 class="display-4">patiencekorrie@gmail.com</h1>
+                            
+                            <div class="icon">
+                                <h4>SOCIAL</h4>
+                                <span><i class="fab fa-linkedin-in"></i></span>
+                                <span><i class="fab fa-instagram"></i></span>
+                                <span><i class="fab fa-slack"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
     <body>
         <div class="jumbotron" id="contact">
             <h3>contact me @</h3>
             <h1 class="display-4">patiencekorrie@gmail.com</h1>
-            <p class="icon">
-            </p>
+            
+            <div class="icon">
+                <h4>SOCIAL</h4>
+                <span><i class="fab fa-linkedin-in"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
+                <span><i class="fab fa-slack"></i></span>
+            </div>
         </div>
+        
     </body>
 </html>

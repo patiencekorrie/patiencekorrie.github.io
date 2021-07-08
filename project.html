@@ -6,102 +6,244 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- style -->
         <link rel="stylesheet" href="style.css">
+        <link rel="" href="Jscript.js">
         <!-- fontawesome css -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <title>Patience Korrie</title>
     </head>
-    <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
-      <div class="container" id="top">
-          <a class="navbar-brand order-1" href="index.html">
-            <figure class="hover-rotate">
-                <img width="50" src="images\logo (1).png" alt="" style="float: left;">
-            </figure>
-        </a>
-        <ul class="nav navbar-nav order-2">
-            <li class="nav-item">
-                <a href="project.html" class="nav-link">
-                    <span class="nav-link-name">Projects</span>
-                </a>
-            </li>
-            <li class="nav-item ">
-                <a href="aboutme.html" class="nav-link">
-                    <span class="nav-link-name">About Me</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="contactme.html" class="nav-link">
-                    <span class="nav-link-name">contact</span>
-                </a>
-            </li>
-        </ul>
+    <header class="navbar navbar-top navbar-expand-lg" id="stick">
+        <div class="container" id="top">
+            <a class="navbar-brand order-1" href="index.html">
+                <figure class="hover-rotate">
+                    <img width="50" src="images\logo (1).png" alt="" style="float: left;">
+                </figure>
+            
+
+            </a>
+            <ul class="nav navbar-nav order-2" id="mainLinks">
+                <li class="nav-item">
+                    <a href="project.html" class="nav-link">
+                        <span class="nav-link-name">Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a href="aboutme.html" class="nav-link">
+                        <span class="nav-link-name">About Me</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal">contact</div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="jumbotron" id="contact">
+                                <h3>contact me @</h3>
+                                <h1 class="display-4">patiencekorrie@gmail.com</h1>
+                                
+                                <div class="icon">
+                                    <h4>SOCIAL</h4>
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                    <span><i class="fab fa-instagram"></i></span>
+                                    <span><i class="fab fa-slack"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </header>
 
     <body>
-        <div class="container" id="projSect">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                    <div class="proj">
-                        <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            <img class="card-img-top" src="images\taylor-site\tu-logo-fb.png" alt="Card image cap">
-                           
-                          </a>
-                    </div>
-                </div>
-                <div class="collapse" id="collapseExample">
-                    <div class=" card-body text-white">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                      <a href="https://taylor.edu/" class="btn btn-primary">Taylor University</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                    
-                        <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                            <img  class="card-img-top" src="images\yellow-wood\Capture.PNG" alt="Card image cap" style="width: 53%;">
-                          </a>
-                   
-                </div>
-                <div class="collapse" id="collapseExample2">
-                    <div class=" card-body text-white">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                      <a href="https://github.com/ImaniMuya/the-yellow-wood" class="btn btn-primary">The yellow-wood</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                   
-                        <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                            <img  class="card-img-top" src=images\taylor-doc\Capture.PNG alt="Card image cap">
-                          </a>
-                    
-                </div>
-                <div class="collapse" id="collapseExample3">
-                    <div class=" card-body text-white">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                      <a href="https://github.com/Taylor-University/tu-web-documentation.git" class="btn btn-primary">Documentation</a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                   
-                    <a data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
-                        <img  class="card-img-top" src="images\quikStik\Capture1.PNG" alt="Card image cap" style="width: 87%;">
-                      </a>
-                
-            </div>
-            <div class="collapse" id="collapseExample4">
-                <div class=" card-body text-white">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  <a href="https://repo.cse.taylor.edu/group-work/mammoth.git" class="btn btn-primary">QuickStick</a>
-                </div>
-            </div>
-            </div>
-
+        <div class="container text-center active">
+            <button class="btn text-white " type="button" data-toggle="collapse" href="#bigCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" id="web-button">
+                WebSites
+            </button>
+            <span class="vl">|</span>
+            <button class="btn text-white" type="button" data-toggle="collapse" href="#bigCollapse2" onclick="four()" role="button" aria-expanded="false" aria-controls="collapseExample" id="photo-button">
+                Photographs
+            </button>
         </div>
+        <div class="container collapse" id="bigCollapse2">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div type="button" data-toggle="modal" data-target="#exampleModal1">
+                        <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" class="img-fluid mb-4" alt="">
+                    </div>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="jumbotron" id="overlay">
+                                <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" style="width: 50%;">
+                            </div>
+                        </div>
+                    </div>          
+                  
+                    <img src="images\photos\IMG_2970.jpg" class="img-fluid mb-4" alt=""
+                    data-wow-delay="0.3s">
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <img src="images\photos\IMG_8714-Edit.jpeg" class="img-fluid mb-4" alt=""
+                    data-wow-delay="0.1s">
+          
+                  <img src="images\_MG_1519_Original (2).jpg" class="img-fluid mb-4" alt=""
+                    data-wow-delay="0.4s">
+          
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" class="img-fluid mb-4" alt=""
+                    data-wow-delay="0.2s">
+          
+                  <img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(67).jpg" class="img-fluid mb-4" alt=""
+                    data-wow-delay="0.5s">
+                </div>
+              </div>
+              <hr class="mb-5"/>
+            </div>
+ <!-- -------------------------------------------------------------------- -->
+            
+            
+        <div class="collapse show" id="bigCollapse">
+            <div class=" card-body text-white">
+                
+                <div class="container" id="projSect">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                            <div class="proj">
+                                <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <img class="card-img-top" src="images\taylor-site\tu-logo-fb.png" alt="Card image cap">
+                                    
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div class=" card-body text-white">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                <a href="https://taylor.edu/" class="btn btn-primary">Taylor University</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                            
+                                <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                    <img  class="card-img-top" src="images\yellow-wood\Capture.PNG" alt="Card image cap" style="width: 53%;">
+                                    </a>
+                            
+                        </div>
+                        <div class="collapse" id="collapseExample2">
+                            <div class=" card-body text-white">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                <a href="https://github.com/ImaniMuya/the-yellow-wood" class="btn btn-primary">The yellow-wood</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                            
+                                <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                    <img  class="card-img-top" src=images\taylor-doc\Capture.PNG alt="Card image cap">
+                                    </a>
+                            
+                        </div>
+                        <div class="collapse" id="collapseExample3">
+                            <div class=" card-body text-white">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                <a href="https://github.com/Taylor-University/tu-web-documentation.git" class="btn btn-primary">Documentation</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                            
+                            <a data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                                <img  class="card-img-top" src="images\quikStik\Capture1.PNG" alt="Card image cap" style="width: 87%;">
+                                </a>
+                        
+                    </div>
+                    <div class="collapse" id="collapseExample4">
+                        <div class=" card-body text-white">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            <a href="https://repo.cse.taylor.edu/group-work/mammoth.git" class="btn btn-primary">QuickStick</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-white text-center">
+            <h1>Skills</h1>
+            <hr style="border: 1px solid #49D4A0; width:20%;">
+        </div>
+        <!-- <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div> -->
+            
+            <div class="row text-white" style="padding-left: 25%; padding-top:5px;">
+                <div class="col-6">
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe XD</li>
+                        <li>CSS</li>
+                        <li>dotcms</li>
+                        <li>Foundations</li>
+                        <li>HTML</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                        <li>Javascript</li>
+                        <li>Jquery</li>
+                        <li>python</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>Photography</li>
+                </div>
+
+            </div>
+            <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
