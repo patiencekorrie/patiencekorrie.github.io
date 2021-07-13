@@ -6,6 +6,7 @@ html{
 body {
     background-color: #031926 !important; 
     background-image: -webkit-linear-gradient(#031926, #0D1321) !important;
+    /* background: linear-gradient(to bottom, #031936 6%, #0d1326 63%); */
    
 }
 .navbar-nav {
@@ -74,8 +75,8 @@ body {
 }
 #contact{
     text-align: center;
-    background-color: #BBD8B3 !important;
-    color: ghostwhite !important;
+    background-color: #a2c99c !important;
+    color: black !important;
     margin-top: 4%;
     padding: 10rem 2rem !important;
 
@@ -209,29 +210,31 @@ body {
     position:fixed;
 } */
 
-#imgRow {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create two equal columns that sits next to each other */
-  #imgCol {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
-  }
-  
-  #imgCol img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
+
   #bigCollapse2{
     padding: 32px;
   }
-  * {
-    box-sizing: border-box;
+  #overlay{
+    background-color: transparent !important;
+    padding-top: 0rem;
   }
+  
+  #outsideBox{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  /* .carousel-control-prev-icon{
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+  } */
+
+  .padded-pipe{
+      color: #49D4A0;
+  }
+ 
+
   
