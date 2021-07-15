@@ -23,36 +23,41 @@
                 </figure>
             </a>
             <ul class="nav navbar-nav order-2" id="mainLinks">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="project.html" class="nav-link">
                         <span class="nav-link-name">Projects</span>
                     </a>
-                </li>
+                </li> -->
                 <li class="nav-item ">
                     <a href="aboutme.html" class="nav-link">
-                        <span class="nav-link-name">About Me</span>
+                        <span class="nav-link-name"> <i class="fad fa-user-circle fa-2x"></i></span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal">contact</div>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">
+                         <i class="far fa-envelope fa-2x"></i>
+                    </div>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content" id="x">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
-                            </button>
-                            <div class="jumbotron" id="contact">
+                              </button>
+                            <div class="modal-body" id="contact">
                                 <h3>contact me @</h3>
                                 <h1 class="display-4">patiencekorrie@gmail.com</h1>
-                                
+                                <h4>SOCIAL</h4> 
                                 <div class="icon">
-                                    <h4>SOCIAL</h4>
-                                    <span><i class="fab fa-linkedin-in"></i></span>
-                                    <span><i class="fab fa-instagram"></i></span>
-                                    <span><i class="fab fa-slack"></i></span>
+                                    <a class="icon-color"href="https://www.linkedin.com/in/patience-korrie/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="icon-color"href="https://www.instagram.com/pkorrie_photo/"><i class="fab fa-instagram"></i></a>
+                                    <a class="icon-color"href="https://github.com/pkorrie"><i class="fab fa-github"></i></a>
                                 </div>
                             </div>
+                          </div>
                         </div>
-                    </div>
+                      </div>
                 </li>
             </ul>
         </div>
@@ -71,16 +76,8 @@
             <p class="Rp">Recent Projects</p>
             <a href="#Rp"><i class="fal fa-chevron-double-down"></i></a>
         </div>
-        <div class="recentPj">
-            <img src="images\photos\IMG_2970.jpg" id="Rp" alt=""> -->
-             <!-- <img src="images\quikStik\Capture1.PNG" id="Rp" alt=""> -->
-            <a class="box-arrow-link" href="project.html" role="button">
-                <span class="text-box">View All Projects</span>
-            </a>
-            <div class="upArw"><a href="#top"><i class="fal fa-chevron-double-up"></i></a></div>
-        </div>
 
-        <!-- <div class="container text-center ">
+        <div class="container text-center Recent Projects " id="Rp">
             <button class="btn text-white " type="button" data-toggle="collapse" href="#bigCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" id="web-button">
                 WebSites
             </button>
@@ -89,6 +86,48 @@
                 Photographs
             </button>
         </div>
+        <div class="container" id="bigCollapse">
+            <div class="row" id="projSect">
+                <div class="card">
+                    <img src="images\taylor-site\tu-logo-fb.png" />
+                    <h3>Lorem ipsum</h3>
+                    <div class="focus-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> <a href="https://taylor.edu/">Taylor Uninversity</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images\yellow-wood\Capture.PNG" />
+                    <h3>Lorem ipsum</h3>
+                    <div class="focus-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> <a href="https://github.com/ImaniMuya/the-yellow-wood">Taylor Uninversity</a>
+                    </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images\taylor-doc\Capture.PNG" style="width: auto;"/>
+                    <h3>Lorem ipsum</h3>
+                    <div class="focus-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> <a href="https://github.com/Taylor-University/tu-web-documentation.git">Taylor Uninversity</a>
+                    </p>
+                    </div>
+                </div>
+                
+            
+                <div class="card">
+                    <img src="images\quikStik\Capture1.PNG" style="width: auto;"/>
+                    <h3>Lorem ipsum</h3>
+                    <div class="focus-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> <a href="https://repo.cse.taylor.edu/group-work/mammoth.git">Taylor Uninversity</a>
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
         <div class="container collapse" id="bigCollapse2">
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-4">
@@ -128,68 +167,11 @@
                 </div>
             </div>
               <hr class="mb-5"/>
-        </div> -->
-        <!-- ------------------------------------------- -->
-        <!-- <div class="collapse show" id="bigCollapse">
-            <div class=" card-body text-white">
-                <div class="container" id="projSect">
-                    <div class="row">
-                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                            <div class="proj">
-                                <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <img class="card-img-top" src="images\taylor-site\tu-logo-fb.png" alt="Card image cap">
-                                    </a>
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample">
-                            <div class=" card-body text-white">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                <a href="https://taylor.edu/" class="btn btn-primary">Taylor University</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                            
-                                <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                                    <img  class="card-img-top" src="images\yellow-wood\Capture.PNG" alt="Card image cap" style="width: 53%;">
-                                    </a>
-                            
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                            <div class=" card-body text-white">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                <a href="https://github.com/ImaniMuya/the-yellow-wood" class="btn btn-primary">The yellow-wood</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                            
-                                <a data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-                                    <img  class="card-img-top" src=images\taylor-doc\Capture.PNG alt="Card image cap">
-                                    </a>
-                            
-                        </div>
-                        <div class="collapse" id="collapseExample3">
-                            <div class=" card-body text-white">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                <a href="https://github.com/Taylor-University/tu-web-documentation.git" class="btn btn-primary">Documentation</a>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
-                            
-                            <a data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
-                                <img  class="card-img-top" src="images\quikStik\Capture1.PNG" alt="Card image cap" style="width: 87%;">
-                                </a>
-                        
-                    </div>
-                    <div class="collapse" id="collapseExample4">
-                        <div class=" card-body text-white">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            <a href="https://repo.cse.taylor.edu/group-work/mammoth.git" class="btn btn-primary">QuickStick</a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        </div>
+        
+        <div class="upArw"><a href="#top"><i class="fal fa-chevron-double-up"></i></a></div>
+
+        
             
         
 
