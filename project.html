@@ -12,9 +12,6 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
         <title>Patience Korrie</title>
     </head>
@@ -64,12 +61,12 @@
     </header>
 
     <body>
-        <div class="container text-center active">
+        <div class="container text-center ">
             <button class="btn text-white " type="button" data-toggle="collapse" href="#bigCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" id="web-button">
                 WebSites
             </button>
             <span class="vl">|</span>
-            <button class="btn text-white" type="button" data-toggle="collapse" href="#bigCollapse2" onclick="four()" role="button" aria-expanded="false" aria-controls="collapseExample" id="photo-button">
+            <button class="btn text-white" type="button" data-toggle="collapse" href="#bigCollapse2"  role="button" aria-expanded="false" aria-controls="collapseExample" id="photo-button">
                 Photographs
             </button>
         </div>
@@ -80,12 +77,12 @@
                         <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" class="img-fluid mb-4" alt="">
                     </div>
                     <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
+                        <div class="modal-dialog" id="outsideBox" role="document">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                             <div class="jumbotron" id="overlay">
-                                <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" style="width: 50%;">
+                                <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" style="width: 58%;">
                             </div>
                         </div>
                     </div>          
@@ -110,22 +107,19 @@
                   <img src="http://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(67).jpg" class="img-fluid mb-4" alt=""
                     data-wow-delay="0.5s">
                 </div>
-              </div>
-              <hr class="mb-5"/>
             </div>
+              <hr class="mb-5"/>
+        </div>
  <!-- -------------------------------------------------------------------- -->
-            
             
         <div class="collapse show" id="bigCollapse">
             <div class=" card-body text-white">
-                
                 <div class="container" id="projSect">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-3 mb-4">
                             <div class="proj">
                                 <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     <img class="card-img-top" src="images\taylor-site\tu-logo-fb.png" alt="Card image cap">
-                                    
                                     </a>
                             </div>
                         </div>
@@ -182,42 +176,6 @@
             <h1>Skills</h1>
             <hr style="border: 1px solid #49D4A0; width:20%;">
         </div>
-        <!-- <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div> -->
             
             <div class="row text-white" style="padding-left: 25%; padding-top:5px;">
                 <div class="col-6">
@@ -240,6 +198,13 @@
                 </div>
 
             </div>
+             <!-- <div class="card w-25 proj">
+            <img class="card-img-top" src="images\taylor-site\tu-logo-fb.png" alt="Card image cap">
+            <div class="card-body middle">
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
             <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

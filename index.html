@@ -9,76 +9,217 @@
         <link rel="" href="Jscript.js">
         <!-- fontawesome css -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fuggles&display=swap" rel="stylesheet">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <title>Patience Korrie</title>
     </head>
-    <header class="navbar navbar-top navbar-expand-lg" id="stick">
-        <div class="container" id="top">
-            <a class="navbar-brand order-1" href="index.html">
-                <figure class="hover-rotate">
-                    <img width="50" src="images\logo (1).png" alt="" style="float: left;">
-                </figure>
-            </a>
-            <ul class="nav navbar-nav order-2" id="mainLinks">
-                <li class="nav-item">
-                    <a href="project.html" class="nav-link">
-                        <span class="nav-link-name">Projects</span>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a href="aboutme.html" class="nav-link">
-                        <span class="nav-link-name">About Me</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModal">contact</div>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            <div class="jumbotron" id="contact">
-                                <h3>contact me @</h3>
-                                <h1 class="display-4">patiencekorrie@gmail.com</h1>
-                                
-                                <div class="icon">
-                                    <h4>SOCIAL</h4>
-                                    <span><i class="fab fa-linkedin-in"></i></span>
-                                    <span><i class="fab fa-instagram"></i></span>
-                                    <span><i class="fab fa-slack"></i></span>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content" id="x">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="modal-body" id="contact">
+            <h3>contact me @</h3>
+            <h1 class="email">patiencekorrie@gmail.com</h1>
+            <h4>SOCIAL</h4> 
+            <div class="icon">
+                <a class="icon-color"href="https://www.linkedin.com/in/patience-korrie/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="icon-color"href="https://www.instagram.com/pkorrie_photo/"><i class="fab fa-instagram"></i></a>
+                <a class="icon-color"href="https://github.com/pkorrie"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <body class="homeBody">
+        <div class="blur">
+            <header >
+                <div class="navbar navbar-top navbar-expand-lg" id="stick">
+                    <div class="container" id="top">
+                        <a class="navbar-brand order-1" href="index.html">
+                            <figure class="hover-rotate">
+                                <img width="50" src="images\logo (1).png" alt="" style="float: left;">
+                            </figure>
+                        </a>
+                        <ul class="nav navbar-nav order-2" id="mainLinks">
+                            <!-- <li class="nav-item">
+                                <a href="project.html" class="nav-link">
+                                    <span class="nav-link-name">Projects</span>
+                                </a>
+                            </li> -->
+                            <li class="nav-item" id="spaceTop">
+                                <a href="aboutme.html" class="nav-link">
+                                    <span class="nav-link-name">About Me</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <div type="button" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <span class="nav-link-name"> <i class="far fa-envelope fa-2x"></i> </span>
                                 </div>
-                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+            </header>
+            <div class="jumbotron">
+                <img width="200" src="images\2021-03-30.jpg" alt="" class="rounded-circle" style="
+                margin-top: -60px;">
+                <h1 class="display-4" id="name">Patience Korrie</h1>
+                <p class="lead">
+                    <span class="lead-cont">Web-developer</span>
+                    <span class="padded-pipe">|</span>
+                    <span class="lead-cont">Web-design</span> 
+                    <span class="padded-pipe">|</span>
+                    <span class="lead-cont">Photographer</span>
+                </p>
+                <div class="trigger">
+                    <div class="zoom-in-out-box">Skills</div>
+                    <div class="el">
+                        <button class="button-swing">HTML</button>
+                        <button class="button-swing">CSS</button>
+                        <button class="button-swing">JavaScript</button>
+                        <button class="button-swing">JQuery</button>
+                        <button class="button-swing">MySQL</button>
+                        <button class="button-swing">Python</button> <br>
+                        <button class="button-swing">Foundations</button>
+                        <button class="button-swing">dotcms</button>
+                        <button class="button-swing">Adobe XD</button>
+                        <button class="button-swing">Adobe Photoshop</button>
+                    </div>
+                </div>
+
+
+                <p class="Rp">Recent Projects</p>
+                <a href="#Rp"><i class="fal fa-chevron-double-down"></i></a>
+            </div>
+
+            <div class="container text-center Recent Projects " id="Rp">
+                <button class="btn text-white " type="button" data-toggle="collapse" href="#bigCollapse" role="button" aria-expanded="false" aria-controls="collapseExample" id="web-button">
+                    WebSites
+                </button>
+                <span class="vl">|</span>
+                <button class="btn text-white" type="button" data-toggle="collapse" href="#bigCollapse2"  role="button" aria-expanded="false" aria-controls="collapseExample" id="photo-button">
+                    Photographs
+                </button>
+            </div>
+            <div class="container" id="bigCollapse">
+                <div class="row" id="projSect">
+                    <div class="card h-294">
+                        <img src="images\taylor-site\tu-logo-fb.png" />
+                        <h3>Taylor University</h3>
+                        <div class="focus-content">
+                            <p>I worked as a student Web-developer.<br/> <a href="https://taylor.edu/">Taylor Uninversity</a>
+                            </p>
                         </div>
                     </div>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <body>
-        <div class="jumbotron">
-            <img width="200" src="images\2021-03-30.jpg" alt="" class="rounded-circle">
-            <h1 class="display-4">Patience Korrie</h1>
-            <p class="lead">
-                <span class="lead-cont">Web-developer</span>
-                <span class="padded-pipe">|</span>
-                <span class="lead-cont">Wed-design</span> 
-                <span class="padded-pipe">|</span>
-                <span class="lead-cont">Photographer</span>
-            </p>
-            <p class="Rp">Recent Project</p>
-            <a href="#Rp"><i class="fal fa-chevron-double-down"></i></a>
-        </div>
-        <div class="recentPj">
-            <img src="images\photos\IMG_2970.jpg" id="Rp" alt="">
-            <!-- <img src="images\quikStik\Capture1.PNG" id="Rp" alt=""> -->
-            <a class="box-arrow-link" href="project.html" role="button">
-                <span class="text-box">View All Projects</span>
-            </a>
+                    <div class="card">
+                        <img src="images\yellow-wood\Capture.PNG" />
+                        <h3>The yellow Wood</h3>
+                        <div class="focus-content">
+                        <p>This was a video game made from scratch by my team during a 1-day game coding challenge in which we won 2nd place. <a href="https://github.com/ImaniMuya/the-yellow-wood">The Yellow Wood</a>
+                        </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images\taylor-doc\Capture.PNG"/>
+                        <h3>Taylor UN Documentation</h3>
+                        <div class="focus-content">
+                        <p>WordPress was used to create a page for documenting Taylor's web format and software which is used for future reference. <a href="https://github.com/Taylor-University/tu-web-documentation.git">Taylor Uninversity Documentation</a>
+                        </p>
+                        </div>
+                    </div>
+                    
+                
+                    <div class="card" id="quikCard">
+                        <img src="images\quikStik\Capture1.PNG"/>
+                        <h3>QuickStick</h3>
+                        <div class="focus-content">
+                        <p>A scripture meorization WebSite currently being developed by Taylor Uninversity students with guidiance from professors. <a href="https://repo.cse.taylor.edu/group-work/mammoth.git">QuickStick</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container collapse" id="bigCollapse2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div type="button" data-toggle="modal" data-target="#exampleModal1">
+                            <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" class="img-fluid mb-4" alt="">
+                        </div>     
+                        <div type="button" data-toggle="modal" data-target="#exampleModal1">
+                            <img src="images\photos\IMG_2970.jpg" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.3s">
+                        </div>
+                        <img src="images\photos\run.jpeg" class="img-fluid mb-4" alt=""
+                        data-wow-delay="0.1s">
+                        <img src="images\photos\scene.jpg" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.4s">
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="images\photos\IMG_8714-Edit.jpeg" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.1s">
+                
+                        <img src="images\photos\Nighttime exterior exposure.jpeg" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.4s">
+                            
+                            <img src="images\photos\Frozen motion.jpeg" class="img-fluid mb-4" alt=""
+                        data-wow-delay="0.3s">
+                        <img src="images\photos\bros.jpg" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.2s">
+                            <img src="images\photos\set.jpeg" class="img-fluid mb-4" alt=""
+                                data-wow-delay="0.5s">
+            
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="images\photos\one.jpg" class="img-fluid mb-4" alt=""
+                        data-wow-delay="0.2s">
+            
+                        <img src="images\photos\umbrlla.jpeg" class="img-fluid mb-4" alt=""
+                        data-wow-delay="0.5s">
+                        <img src="images\photos\friend.JPG" class="img-fluid mb-4" alt=""
+                            data-wow-delay="0.5s">
+                            <img src="images\photos\trees.jpg" class="img-fluid mb-4" alt=""
+                                    data-wow-delay="0.2s">
+                    </div>
+                </div>
+                <hr class="mb-5"/>
+            </div>
+
             <div class="upArw"><a href="#top"><i class="fal fa-chevron-double-up"></i></a></div>
+
         </div>
+        <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="outsideBox" role="document">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="jumbotron" id="overlay">
+                    <img src="images\photos\EA27DBD6-BC7B-422C-85E2-50CC29EE975C.jpg" style="width: 58%;">
+                </div>
+            </div>
+        </div> -->
+
+
+        
             
         
 

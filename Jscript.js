@@ -1,19 +1,4 @@
-// var video = document.getElementById("myVideo");
-// var btn = document.getElementById("myBtn");
 
-// function myFunction() {
-//   if (video.paused) {
-//     video.play();
-//     btn.innerHTML = "Pause";
-//   } else {
-//     video.pause();
-//     btn.innerHTML = "Play";
-//   }
-// }
-
-
-
-// $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
-
-//     new WOW().init();
-
+let el = document.querySelector('.el');
+let height = el.scrollHeight;
+el.style.setProperty('--max-height', height + 'px');
